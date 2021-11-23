@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Modules\\": "modules"
+    }
+  },
+  "require": {
+    "plenusservices/php-ldap-auth": "^1.0",
+    "vlucas/phpdotenv": "^5.4",
+    "clue/framework-x": "dev-main",
+    "firebase/php-jwt": "^5.5"
+  }
+}
